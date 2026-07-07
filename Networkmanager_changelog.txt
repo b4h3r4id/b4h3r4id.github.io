@@ -1,0 +1,6 @@
+1.0
+Initial release of Network Manager
+Real-time network speed indicator in status bar
+Per-app data usage tracking and monitoring
+Speed Test — measure download, upload, and ping
+Daily data and Wi-Fi usage notifications
