@@ -8,3 +8,8 @@ Daily data and Wi-Fi usage notifications
 1.1
 Added changelog tracking system to display feature updates
 Performance improvements and background service optimizations
+
+1.2
+Fixed application crash on Android 6.0 (API 23) devices
+Completely rewrote and optimized the Ping Test core logic
+General bug fixes and stability improvements
