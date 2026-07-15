@@ -1,0 +1,49 @@
+{
+  "versionCode": 2,
+  "versionName": "1.1",
+  "releaseDate": "2026-07-15",
+  "changelog": [
+    {
+      "version": "1.1",
+      "date": "2026-07-15",
+      "sections": [
+        {
+          "heading": "New Features",
+          "items": [
+            "In-app Changelog screen — browse every past update from Settings → About",
+            "Premium plans: Weekly, Monthly, Annual subscriptions",
+            "Watch 5 short ads for 24-hour ad-free access",
+            "Speed Test screen with real-time speedometer",
+            "Ping Test with jitter and packet loss stats"
+          ]
+        },
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "Fixed crash on Android 6.0 (API 23) devices",
+            "App Usage now correctly shows all installed apps, not just system apps",
+            "Foreground/Background data split now reports accurate values",
+            "Fixed double-navigation bug when opening app details",
+            "Fixed ads not disappearing immediately after purchasing Premium"
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-07-05",
+      "sections": [
+        {
+          "heading": "What's New",
+          "items": [
+            "First release of Network Manager",
+            "Real-time speed indicator in the status bar",
+            "Per-app data usage tracking",
+            "Daily data and Wi-Fi usage notifications"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
