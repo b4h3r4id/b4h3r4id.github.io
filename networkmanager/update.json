@@ -1,14 +1,28 @@
 {
-  "versionCode": 14,
-  "versionName": "1.4",
+  "versionCode": 15,
+  "versionName": "1.5",
   "releaseDate": "2026-07-15",
   "changelog": [
+    {
+      "version": "1.5",
+      "date": "2026-07-15",
+      "sections": [
+        {
+          "heading": "What's New",
+          "items": [
+            "Hotfix: Resolved a critical issue with the in-app update checker and network routing",
+            "Performance optimizations for faster background data usage tracking",
+            "General stability enhancements and minor UI polish"
+          ]
+        }
+      ]
+    },
     {
       "version": "1.4",
       "date": "2026-07-15",
       "sections": [
         {
-          "heading": "New Features",
+          "heading": "What's New",
           "items": [
             "In-app Update dialog — prompts you to upgrade whenever a new version is available",
             "Changelog viewer — view what's new directly on the update prompt screen",
