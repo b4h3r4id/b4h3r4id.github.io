@@ -1,4 +1,23 @@
 {
+  "versionCode": 16,
+  "versionName": "1.6",
+  "releaseDate": "2026-07-17",
+  "changelog": [
+    {
+      "version": "1.6",
+      "date": "2026-07-17",
+      "sections": [
+        {
+          "heading": "What's New & Improvements",
+          "items": [
+            "Introduced a modern, compact UI with full Light and Dark mode support",
+            "Redesigned the Update and Changelog screens with beautiful new background colors",
+            "Fixed a routing issue where 'View full changelog history' failed to redirect properly"
+          ]
+        }
+      ]
+    },
+{
   "versionCode": 15,
   "versionName": "1.5",
   "releaseDate": "2026-07-15",
