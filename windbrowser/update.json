@@ -1,0 +1,47 @@
+{
+  "versionCode": 18131,
+  "versionName": "1.8.11",
+  "releaseDate": "2026-07-08",
+  "changelog": [
+    {
+      "version": "1.8.11",
+      "date": "2026-07-08",
+      "sections": [
+        {
+          "heading": "New Features",
+          "items": [
+            "Smart link & image context menus (Chrome-style)",
+            "Copy link address, copy link text, open incognito",
+            "AI-generated wallpaper collection (Sky, Space, Gradient)",
+            "Update notifications with changelog viewer",
+            "Changelog screen in Settings → About"
+          ]
+        },
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "My Photos no longer show broken images after app restart",
+            "Daily wallpaper rotation now actually works",
+            "Settings back navigation fixed",
+            "Context menu no longer mixes up links and images"
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.8.8",
+      "date": "2026-02-01",
+      "sections": [
+        {
+          "heading": "What's New",
+          "items": [
+            "Full rebuild with Jetpack Compose",
+            "Dark / light theme switching without restart",
+            "Tab switcher redesign",
+            "Download system rebuilt in Compose"
+          ]
+        }
+      ]
+    }
+  ]
+}
