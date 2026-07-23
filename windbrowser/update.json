@@ -1,28 +1,29 @@
 {
-  "versionCode": 18131,
-  "versionName": "1.8.11",
-  "releaseDate": "2026-07-08",
+  "versionCode": 18129,
+  "versionName": "1.8.9",
+  "releaseDate": "2026-07-23",
   "changelog": [
     {
-      "version": "1.8.11",
-      "date": "2026-07-08",
+      "version": "1.8.9",
+      "date": "2026-07-23",
       "sections": [
         {
           "heading": "New Features",
           "items": [
-            "Smart link & image context menus (Chrome-style)",
-            "Copy link address, copy link text, open incognito",
-            "AI-generated wallpaper collection (Sky, Space, Gradient)",
-            "Update notifications with changelog viewer",
-            "Changelog screen in Settings → About"
+            "Inactive Tabs Management — set rules to move inactive tabs (Never / 7 / 14 / 21 days)",
+            "Automatically close inactive tabs option — auto-cleans tabs older than 3 months",
+            "In-app Update dialog — prompts to upgrade with built-in changelog viewer",
+            "Full Changelog history screen added under Settings → About",
+            "Smart link & image context menus (Chrome-style: copy link address, text, open incognito)",
+            "AI-generated wallpaper collection (Sky, Space, Gradient)"
           ]
         },
         {
           "heading": "Bug Fixes",
           "items": [
             "My Photos no longer show broken images after app restart",
-            "Daily wallpaper rotation now actually works",
-            "Settings back navigation fixed",
+            "Daily wallpaper rotation now works reliably",
+            "Fixed back button navigation in Settings",
             "Context menu no longer mixes up links and images"
           ]
         }
