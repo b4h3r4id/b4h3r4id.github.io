@@ -4,6 +4,20 @@
   "releaseDate": "2026-07-17",
   "changelog": [
     {
+  "version": "1.7",
+  "date": "2026-08-01",
+  "sections": [
+    {
+      "heading": "Bug Fixes",
+      "items": [
+        "Fixed an issue where ads on the Home screen could silently disappear after navigating between screens",
+        "Improved ad loading reliability and consent initialization during app startup",
+        "Improved Premium subscription status synchronization and stability"
+      ]
+    }
+  ]
+},
+    {
       "version": "1.6",
       "date": "2026-07-17",
       "sections": [
