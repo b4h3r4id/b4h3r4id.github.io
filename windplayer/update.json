@@ -1,12 +1,71 @@
 {
-  "version": "1.0",
-  "releaseNotes": [
-    "Improved Now Playing open and close animations for a smoother, more fluid experience.",
-    "Refined swipe gestures between Library and Now Playing for more natural and responsive transitions.",
-    "Improved Mini Player animations when opening and closing Now Playing.",
-    "Refined the transition of the bottom controls and navigation elements when opening Now Playing.",
-    "Optimized touch and gesture interactions throughout the Now Playing screen.",
-    "Improved gesture behavior to prepare for future swipe-to-change-track functionality.",
-    "Overall player animations and gesture interactions are now smoother and more consistent."
+  "versionCode": 1,
+  "versionName": "1.0",
+  "releaseDate": "2026-08-15",
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-08-15",
+      "sections": [
+        {
+          "heading": "New Features",
+          "items": [
+            "Introduced a completely redesigned Now Playing experience",
+            "Added an expandable Now Playing player with smooth interactive transitions",
+            "Added gesture-based opening and closing between Library and Now Playing",
+            "Added real music playback powered by Media3 ExoPlayer",
+            "Added queue-aware next and previous track controls",
+            "Added real Shuffle and Repeat playback controls",
+            "Added dynamic album artwork with cached artwork loading",
+            "Added smooth player animations synchronized with the bottom navigation"
+          ]
+        },
+        {
+          "heading": "Now Playing Improvements",
+          "items": [
+            "Improved the Now Playing open and close animations for a smoother and more fluid experience",
+            "Improved swipe responsiveness when opening Now Playing from the Library",
+            "Improved swipe responsiveness when closing Now Playing",
+            "Added smoother Mini Player transitions when opening and closing the full player",
+            "Refined the bottom navigation and player controls transition during player expansion",
+            "Improved gesture behavior to make the player feel more natural and responsive",
+            "Optimized touch interactions throughout the Now Playing screen",
+            "Prepared the player gesture system for future swipe-to-change-track functionality"
+          ]
+        },
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "Fixed an issue where the Now Playing screen could snap back to its previous position when released during a swipe",
+            "Fixed overly fast animations when closing the Now Playing screen",
+            "Removed unwanted bounce behavior at the end of the closing animation",
+            "Fixed Mini Player positioning during Now Playing transitions",
+            "Fixed inconsistent animation behavior when opening Now Playing with a short swipe",
+            "Fixed unwanted touch feedback when interacting with the Now Playing screen",
+            "Improved gesture handling to prevent unexpected transitions during player interactions"
+          ]
+        },
+        {
+          "heading": "Playback",
+          "items": [
+            "Added real local music playback using ExoPlayer",
+            "Added queue-aware track navigation",
+            "Added functional Shuffle playback",
+            "Added functional Repeat playback",
+            "Added seeking support for the current track"
+          ]
+        },
+        {
+          "heading": "UI & Visual Improvements",
+          "items": [
+            "Refined the overall Now Playing layout and visual hierarchy",
+            "Improved album artwork presentation and transitions",
+            "Added smoother animated player expansion and collapse",
+            "Improved navigation and control animations for a more consistent experience",
+            "Polished player gestures and interactive feedback"
+          ]
+        }
+      ]
+    }
   ]
 }
