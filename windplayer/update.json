@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "releaseNotes": [
+    "Improved Now Playing open and close animations for a smoother, more fluid experience.",
+    "Refined swipe gestures between Library and Now Playing for more natural and responsive transitions.",
+    "Improved Mini Player animations when opening and closing Now Playing.",
+    "Refined the transition of the bottom controls and navigation elements when opening Now Playing.",
+    "Optimized touch and gesture interactions throughout the Now Playing screen.",
+    "Improved gesture behavior to prepare for future swipe-to-change-track functionality.",
+    "Overall player animations and gesture interactions are now smoother and more consistent."
+  ]
+}
