@@ -1,22 +1,44 @@
 {
-  "versionCode": 119,
-  "versionName": "1.7",
-  "releaseDate": "2026-08-01",
+  "versionCode": 123,
+  "versionName": "1.8",
+  "releaseDate": "2026-09-23",
   "changelog": [
     {
-  "version": "1.7",
-  "date": "2026-08-01",
-  "sections": [
-    {
-      "heading": "Bug Fixes",
-      "items": [
-        "Fixed an issue where ads on the Home screen could silently disappear after navigating between screens",
-        "Improved ad loading reliability and consent initialization during app startup",
-        "Improved Premium subscription status synchronization and stability"
+      "version": "1.8",
+      "date": "2026-09-23",
+      "sections": [
+        {
+          "heading": "What's New",
+          "items": [
+            "Completely redesigned app with a modern Material 3 interface across every screen",
+            "New Overview summary card on the App Usage screen — see your total data at a glance with an animated entrance",
+            "New Floating Indicator — a draggable, customizable bubble that shows live upload/download speed over any app (Premium)"
+          ]
+        },
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "Fixed settings and menu icons being invisible in Dark Mode",
+            "Fixed Premium status not updating promptly after a subscription ends",
+            "Improved subscription status checks to stay in sync with Google Play while the app is open"
+          ]
+        }
       ]
-    }
-  ]
-},
+    },
+    {
+      "version": "1.7",
+      "date": "2026-08-01",
+      "sections": [
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "Fixed an issue where ads on the Home screen could silently disappear after navigating between screens",
+            "Improved ad loading reliability and consent initialization during app startup",
+            "Improved Premium subscription status synchronization and stability"
+          ]
+        }
+      ]
+    },
     {
       "version": "1.6",
       "date": "2026-07-17",
