@@ -1,8 +1,37 @@
 {
-  "versionCode": 18129,
-  "versionName": "1.8.9",
-  "releaseDate": "2026-07-23",
+  "versionCode": 19000,
+  "versionName": "1.9.0",
+  "releaseDate": "2026-10-07",
   "changelog": [
+    {
+      "version": "1.9.0",
+      "date": "2026-10-07",
+      "sections": [
+        {
+          "heading": "New Features",
+          "items": [
+            "Edit the file name before downloading — tap the pencil in the download dialog",
+            "Failed downloads can be retried with one tap — they resume from where they stopped",
+            "Tapping a download notification opens the Downloads page; new Resume and Retry buttons in download notifications",
+            "Inactive tabs now open in a full-screen page inside the Tab Switcher, with Close all (Chrome style)",
+            "Redesigned Shortcuts and Background switches in the Home menu — the whole row is tappable"
+          ]
+        },
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "Back then Forward on the Home page no longer closes your other tabs one by one",
+            "Closed tabs are now fully released — no more wrong pages in other tabs or sound from a closed tab",
+            "Tab counters now count active tabs only",
+            "The selected tab is outlined in the Tab Switcher when Home is open",
+            "Downloading a file with the same name no longer overwrites the old one — it is saved as images-1.jpg, images-2.jpg…",
+            "Downloaded APK files now open in the package installer",
+            "Paused downloads resume instead of failing, and interrupted downloads no longer end up corrupted",
+            "Home screen shortcut confirmation now appears after you tap Add, not before"
+          ]
+        }
+      ]
+    },
     {
       "version": "1.8.9",
       "date": "2026-07-23",
