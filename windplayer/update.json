@@ -1,68 +1,485 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0",
-  "releaseDate": "2026-08-15",
+  "versionCode": 2,
+  "versionName": "1.1",
+  "releaseDate": "2026-11-01",
+  "minVersionCode": 2,
+  "enforceAfter": "2026-11-15",
   "changelog": [
+    {
+      "version": "1.1",
+      "date": "2026-10-15",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Smoother screen changes: Home, Search and Library glide into each other, Settings and its pages slide in, and going back plays the same motion in reverse."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-10-14",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Lyrics screen: tap the Lyrics button on the player to read the words full screen. With synced lyrics the current line is highlighted, the list scrolls smoothly and tapping a line jumps to it. Songs without timing show plain text.",
+            "Lyrics are read from the song file itself or from a .lrc file with the same name. For .lrc files, pick the folder once: lyrics menu, Lyrics folders.",
+            "Lyrics menu: switch between Synced and Static, fine-tune the timing per song with -0.5 / -0.1 / +0.1 / +0.5 seconds (remembered), and align the text left, center or right.",
+            "No lyrics? Search online (you are asked once, and it only happens when you press Search) or import a .lrc / .txt file. Show lyric options lets you pick from the results instead of using the first match. Saved lyrics can be removed from the lyrics menu.",
+            "On the lyrics screen the buttons fade away after 3 seconds, leaving only the words and the song title. Touch the screen or scroll and they come back. You can turn this off in the lyrics menu.",
+            "Pick up where you left off: if the app was closed, the last song waits in the mini player at the same position, with its queue. Press play to continue."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-10-09",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "In Edit song you can now change a song's cover art from your gallery, delete it, or bring the original back. It shows everywhere in the app straight away. The picture is kept inside the app and the music file is not changed."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "The Daily Mix is now called Suggested for you and has a new look: all songs sit together on one card that follows day and night mode, with a collage cover, a play button and an Open full list button."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-10-08",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Edit song page (open it with the pencil in Song info) with cover art actions and a card for each field. Saving text changes to the file is coming later."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Song info now shows each detail in its own card, the cover in the song menu is bigger, and moving between the menu pages is animated."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed playback that sometimes paused by itself and then ignored the play button, while next and previous only changed the title. The player now recovers from errors on its own, a broken song is skipped, and play, next and previous always work."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-10-07",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Add to queue in the song menu: the song plays right after the current one (and after other songs you queued). A song that is already in the queue is moved instead of being added twice.",
+            "New Use as sound in the song menu: set a song as your ringtone, notification sound or alarm sound. The first time you will be asked to allow this app to change system settings.",
+            "New Song info in the song menu with the details of the file: format, bitrate, size, date added, location and more."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed dragging songs in Next up: the row follows your finger, the number updates smoothly, nothing jumps or sticks near the top, and the song drops exactly where you let go."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-10-05",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Next up queue: open it with the Up Next button or by swiping up from the bottom of the player. See what is playing and what comes next, with play/pause, shuffle and repeat right there.",
+            "Drag songs in the queue to reorder them. They follow your finger smoothly and the numbers update as you move; moving a song to the top keeps it in view.",
+            "Remove songs from the queue with the X button."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-10-02",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Song menu now has Share and Delete song (with a confirmation) -- share the audio file to any app, or remove it from your device."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "The 3-dot menu on every song list (Daily Mix, Favorites, Search, Recently Added, Home, Library) now opens the same menu."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "On album, artist, folder and playlist screens the scroll bar now starts at the first song instead of the top of the screen.",
+            "Dragging the scroll bar now follows your finger exactly, up and down, and normal scrolling along the right edge no longer gets caught by the bar."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-10-01",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New list/grid button in Library -- switch Albums, Artists and Playlists between a list and a two-column grid.",
+            "Albums and artists now have a Play button right on the row or card.",
+            "Playlists now start with Liked Songs and Most Played. Removing a song from Liked Songs un-likes it everywhere.",
+            "Grid views have a scroll bar too."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Song counts are now shown as badges, and playlists also show their total length."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-26",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New \"Library Management\" section in Settings -- manage which folders are scanned, filter out very short tracks or tiny \"albums\", and refresh or rebuild your library.",
+            "First-time setup now includes a quick screen to exclude any folders you don't want in your library."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "\"Excluded Folders\" is now called \"Manage Folders\"."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed the on/off switch styling in Manage Folders to look right in both light and dark mode."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-25",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Tap Edit next to the tabs to reorder them or hide the ones you don't use.",
+            "New Folders tab -- browse your music the way it's actually organised on your device.",
+            "Tap an album, artist, folder or playlist to open its own song list, with Play and Shuffle.",
+            "New Playlists tab -- create as many playlists as you like; renaming or deleting never touches your listening history.",
+            "Every song's menu button now works -- add it to a playlist or to your liked songs."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Library now has tabs across the top -- Songs, Liked, Albums, Playlists, Artists and Folders -- instead of one long list."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-21",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Settings -> Mini player screen: pick the play button's shape, the progress bar style, spinning artwork and its size, and show/hide the time, previous and next controls, with a live preview.",
+            "The mini player's spinning cover can now be a circle, squircle, flower, clover, star or heart."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Library rows now have a proper background in both light and dark mode, and the playing row's menu button matches its cover colour."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Removed the mismatched strip under the bottom navigation bar on every Android version/gesture style.",
+            "Reduced background animation work when the full player is open, to help the title-scrolling occasionally stuttering on long song names.",
+            "Long song titles scroll again in Library (and everywhere the song list appears)."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-20",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New 'Release notes' page in Settings -> About."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed the cover freezing between two cards when pressing next / previous very quickly.",
+            "The play / pause button no longer flickers to 'play' for a moment when the song changes."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-19",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Wide cover-art style: swiping through songs is now smooth. Cover, title and background colour change together, even on very fast swipes.",
+            "The background colour now keeps up with the cover on fast swipes.",
+            "The first song no longer flashes a wrong (purple) colour when it starts.",
+            "The song length now shows instantly when the track changes."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-18",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Wide style: the title and artist now change together with the cover."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-17",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Wide style: swiping stays correct when Shuffle is on."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-16",
+      "sections": [
+        {
+          "heading": "Improved",
+          "items": [
+            "Covers load faster."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-15",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Wide style: the background colour changes faster on swipe."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-14",
+      "sections": [
+        {
+          "heading": "Improved",
+          "items": [
+            "Song colours are remembered, so going back to a song is instant."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-13",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed a brief flash / mix-up of cover images when swiping between songs."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-18",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed the wrong cover showing on the very first swipe.",
+            "No more brief empty-cover flash when the song changes.",
+            "Fixed neighbouring covers being wrong with Repeat One."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-17",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed neighbouring covers not updating while swiping."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-16",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "The changelog refreshes every time you open it.",
+            "Fixed update info and the changelog never loading.",
+            "Fixed extra empty space at the top of Settings.",
+            "Fixed a wrong background colour flashing on fast track changes."
+          ]
+        }
+      ]
+    },
     {
       "version": "1.0",
       "date": "2026-08-15",
       "sections": [
         {
-          "heading": "New Features",
+          "heading": "New",
           "items": [
-            "Introduced a completely redesigned Now Playing experience",
-            "Added an expandable Now Playing player with smooth interactive transitions",
-            "Added gesture-based opening and closing between Library and Now Playing",
-            "Added real music playback powered by Media3 ExoPlayer",
-            "Added queue-aware next and previous track controls",
-            "Added real Shuffle and Repeat playback controls",
-            "Added dynamic album artwork with cached artwork loading",
-            "Added smooth player animations synchronized with the bottom navigation"
+            "Swiping back to the previous cover always plays the previous song."
           ]
         },
         {
-          "heading": "Now Playing Improvements",
+          "heading": "Fixed",
           "items": [
-            "Improved the Now Playing open and close animations for a smoother and more fluid experience",
-            "Improved swipe responsiveness when opening Now Playing from the Library",
-            "Improved swipe responsiveness when closing Now Playing",
-            "Added smoother Mini Player transitions when opening and closing the full player",
-            "Refined the bottom navigation and player controls transition during player expansion",
-            "Improved gesture behavior to make the player feel more natural and responsive",
-            "Optimized touch interactions throughout the Now Playing screen",
-            "Prepared the player gesture system for future swipe-to-change-track functionality"
+            "Your Library sort order and Shuffle / Repeat settings are now remembered."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-14",
+      "sections": [
+        {
+          "heading": "Changed",
+          "items": [
+            "Smoother, more natural player expand / collapse animation."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-12",
+      "sections": [
+        {
+          "heading": "Changed",
+          "items": [
+            "The player follows your finger while you drag it open or closed."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-11",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Swipe up on the mini player to open Now Playing.",
+            "Nicer open / close animation, and you can drag Now Playing down to close it."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-10",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "Richer Now Playing background that fills the whole screen.",
+            "Livelier background colours for pale covers."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-08-09",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Real audio playback."
           ]
         },
         {
-          "heading": "Bug Fixes",
+          "heading": "Fixed",
           "items": [
-            "Fixed an issue where the Now Playing screen could snap back to its previous position when released during a swipe",
-            "Fixed overly fast animations when closing the Now Playing screen",
-            "Removed unwanted bounce behavior at the end of the closing animation",
-            "Fixed Mini Player positioning during Now Playing transitions",
-            "Fixed inconsistent animation behavior when opening Now Playing with a short swipe",
-            "Fixed unwanted touch feedback when interacting with the Now Playing screen",
-            "Improved gesture handling to prevent unexpected transitions during player interactions"
+            "Fixed a stray yellow circle in the accent colours.",
+            "The mini player no longer sits under the gesture bar when the navigation bar is hidden."
           ]
-        },
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "Earlier",
+      "sections": [
         {
-          "heading": "Playback",
+          "heading": "New",
           "items": [
-            "Added real local music playback using ExoPlayer",
-            "Added queue-aware track navigation",
-            "Added functional Shuffle playback",
-            "Added functional Repeat playback",
-            "Added seeking support for the current track"
-          ]
-        },
-        {
-          "heading": "UI & Visual Improvements",
-          "items": [
-            "Refined the overall Now Playing layout and visual hierarchy",
-            "Improved album artwork presentation and transitions",
-            "Added smoother animated player expansion and collapse",
-            "Improved navigation and control animations for a more consistent experience",
-            "Polished player gestures and interactive feedback"
+            "Playback continues in the background, with notification and lock-screen controls.",
+            "Discover Carousel on Home, with customisable cards.",
+            "Daily Mix built from your listening history.",
+            "Reorder and hide Home sections.",
+            "Listening Stats for day, week, month, year and all time.",
+            "Library, Search, Favorites, Recently Played and Recently Added.",
+            "Optional wide cover-art style for Now Playing.",
+            "Appearance settings, an About page and this changelog.",
+            "A quick 3-step welcome on first launch."
           ]
         }
       ]
