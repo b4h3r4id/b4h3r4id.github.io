@@ -1,8 +1,37 @@
 {
-  "versionCode": 19000,
-  "versionName": "1.9.0",
-  "releaseDate": "2026-10-07",
+  "versionCode": 19002,
+  "versionName": "1.9.1",
+  "releaseDate": "2026-10-14",
   "changelog": [
+    {
+      "version": "1.9.1",
+      "date": "2026-10-14",
+      "sections": [
+        {
+          "heading": "New Features",
+          "items": [
+            "Ad & pop-up blocker — Settings → Ads & pop-ups, plus a per-site switch in the 3-dot menu",
+            "Save pages for offline reading — new Save page dialog, a Saved pages screen in the Wind menu, and an Offline badge in the address bar",
+            "Toolbar and bottom menu hide while you scroll down and come back when you scroll up",
+            "Landscape mode redesigned — one bottom bar (back, forward, address bar, tabs, new tab, menu) with new Home and Tab Switcher layouts",
+            "Rearranging Home shortcuts is now smooth, Edge style — the other icons slide out of the way",
+            "Site dark theme is closer to Chrome — softer dark background, and images and icons keep their real colors",
+            "Redesigned Ask before downloading and Change wallpaper daily switches — the whole row is tappable"
+          ]
+        },
+        {
+          "heading": "Bug Fixes",
+          "items": [
+            "Open tabs no longer disappear after the browser was in the background",
+            "The browser no longer crashes in the background when the system frees memory — the page just reloads",
+            "Back on an ad or pop-up tab returns to the page that opened it, not Home",
+            "Home search bar text is readable on every wallpaper in light theme",
+            "Status bar and toolbar are plain white in light theme — no blue tint",
+            "New download icon in the 3-dot menu"
+          ]
+        }
+      ]
+    },
     {
       "version": "1.9.0",
       "date": "2026-10-07",
