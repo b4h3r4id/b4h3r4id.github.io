@@ -4,7 +4,7 @@
   "releaseDate": "2026-11-01",
   "minVersionCode": 2,
   "enforceAfter": "2026-11-15",
-  "lyricsOnline": false,
+  "lyricsOnline": true,
   "changelog": [
     {
       "version": "1.1",
