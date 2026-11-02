@@ -1,1 +1,100 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wavy — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6;
+         max-width: 760px; margin: 0 auto; padding: 24px 18px 64px; }
+  h1 { font-size: 1.7rem; margin-bottom: .2rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .muted { opacity: .7; font-size: .9rem; }
+  code { background: rgba(127,127,127,.18); padding: 1px 5px; border-radius: 4px; }
+  li { margin: .25rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Wavy — Privacy Policy</h1>
+<p class="muted">Last updated: 2 November 2026 · App: Wavy (<code>com.bd.protech.wavy</code>)</p>
+
+<p>Wavy is an offline-first music player for Android. It plays the audio files that are already on your
+device. It has no user accounts, no advertising and no analytics or crash-reporting services. This page explains
+the small number of cases where the app uses the network, and what stays on your device.</p>
+
+<h2>1. What stays on your device</h2>
+<ul>
+  <li><b>Your music library</b> — the app reads your audio files through Android's media storage (permission to read
+      audio). File names, tags and cover art are used only to show and play your music; they are never uploaded.</li>
+  <li><b>Listening history and statistics, favorites, playlists, queue and settings</b> — stored locally in the app's
+      private storage. Uninstalling the app removes them.</li>
+  <li><b>Custom cover art, imported lyrics and lyrics you chose from an online search</b> — stored locally in the app's
+      private storage (excluded from cloud backup). You can remove saved lyrics at any time from the lyrics menu
+      (&ldquo;Reset imported lyrics&rdquo;).</li>
+</ul>
+
+<h2>2. When the app uses the network</h2>
+<p><b>a) Update check.</b> The app can check whether a newer version is available by downloading a small public
+file (<code>update.json</code>) hosted on GitHub. Like any web request, GitHub receives your IP address and standard
+request information. No information about you or your music is sent. The same file can also contain a switch that
+turns the online lyrics search (see b) off for all users.</p>
+
+<p><b>b) Online lyrics search (optional).</b> Only if you allow it and then press <i>Search</i> on the lyrics screen,
+the app sends the <b>song title and artist name</b> of the current song to <b>LRCLIB</b> (<code>lrclib.net</code>),
+a community-run lyrics database, over HTTPS. LRCLIB's server also receives your IP address. Nothing else is sent —
+no file names or paths, no account, advertising or device identifiers. The app never searches automatically or in the
+background. You can withdraw your permission at any time in the lyrics menu (&ldquo;Online lyrics search&rdquo;).
+The lyrics that come back are written by LRCLIB's contributors and may belong to their rights holders; they are
+shown inside the app with their source, are kept only on your device, are not uploaded, shared or exported by the
+app, and can be reported or removed (see section 5). Wavy does not host or distribute lyrics and is not affiliated
+with LRCLIB. LRCLIB handles data under its own terms; please see lrclib.net.</p>
+
+<p><b>c) Artist pictures (optional).</b> Only if you allow it (the Artists tab asks once; you can change it any time in
+Settings, Library Management), the app sends the <b>artist names</b> from your library to <b>Deezer</b>
+(<code>api.deezer.com</code>) over HTTPS to find a picture for each artist, and saves the pictures on your device.
+Deezer's server also receives your IP address. Nothing else is sent. If you decline, nothing is sent and the Artists
+tab shows a generic icon. Pictures are provided by Deezer and belong to their rights holders; the app only displays them.</p>
+
+<h2>3. Permissions</h2>
+<ul>
+  <li><b>Audio / storage read access</b> — to find and play your music.</li>
+  <li><b>Notifications and foreground service (media playback)</b> — to show playback controls and keep music playing
+      with the screen off. <b>Wake lock</b> — to keep playback running while the screen is off.</li>
+  <li><b>Internet</b> — only for the cases in section 2.</li>
+  <li><b>Modify system settings</b> — only if you choose &ldquo;Use as sound&rdquo; to set a song as a ringtone,
+      notification or alarm sound.</li>
+  <li><b>Folder access you grant</b> — if you pick a folder for <code>.lrc</code> lyrics files, the app reads lyrics
+      files from that folder only. You can remove the folder at any time.</li>
+</ul>
+
+<h2>4. Data sharing, retention and children</h2>
+<p>We do not sell or share personal data, and we do not operate a server that receives your data. Data described in
+section 1 remains on your device until you delete it or uninstall the app. The app is not directed to children
+under 13 and does not knowingly collect personal information from anyone.</p>
+
+<h2>5. Your choices, reports and contact</h2>
+<p>You can use the app fully without the network features.</p>
+
+<p><b>Reporting lyrics.</b> If lyrics are wrong or you believe they infringe someone's rights, use
+&ldquo;Report lyrics&rdquo; in the lyrics menu (available for lyrics from an online search). This
+<b>removes the lyrics from your device immediately</b> and opens an email draft addressed to us with the song title,
+artist and source. <b>Nothing is sent automatically</b> &mdash; the email leaves your device only if you send it.
+Reporting from the app does not by itself send a complaint to LRCLIB.</p>
+
+<p><b>Rights holders.</b> If you own rights in lyrics that can be found through the app, please write to the address
+below with the song, the artist and, if you have it, the LRCLIB record number shown in the report email. We will
+review it promptly and, where appropriate, stop offering the online lyrics search to all users.</p>
+
+<p>For any privacy question or request, contact:
+<a href="mailto:bd.protech.corp@gmail.com"><b>bd.protech.corp@gmail.com</b></a></p>
+
+<h2>6. Changes</h2>
+<p>If the app's data practices change (for example, new network features), this policy will be updated before the
+change is released, and the date above will change.</p>
+
+</body>
+  </html>
+  
