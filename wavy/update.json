@@ -1,8 +1,8 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
+  "versionCode": 4,
+  "versionName": "1.2",
   "releaseDate": "2026-11-01",
-  "minVersionCode": 2,
+  "minVersionCode": 4,
   "enforceAfter": "2026-11-15",
   "lyricsOnline": true,
   "changelog": [
