@@ -18,11 +18,12 @@
 <body>
 
 <h1>Wavy — Privacy Policy</h1>
-<p class="muted">Last updated: 2 November 2026 · App: Wavy (<code>com.bd.protech.wavy</code>)</p>
+<p class="muted">Last updated: 25 November 2026 · App: Wavy (<code>com.bd.protech.wavy</code>)</p>
 
 <p>Wavy is an offline-first music player for Android. It plays the audio files that are already on your
-device. It has no user accounts, no advertising and no analytics or crash-reporting services. This page explains
-the small number of cases where the app uses the network, and what stays on your device.</p>
+device. It has no user accounts and no analytics or crash-reporting services of its own. The free version shows
+advertising served by Google AdMob; Wavy Pro removes it. This page explains the small number of cases where the app
+uses the network (including advertising), and what stays on your device.</p>
 
 <h2>1. What stays on your device</h2>
 <ul>
@@ -34,7 +35,7 @@ the small number of cases where the app uses the network, and what stays on your
       lifetime purchase), the payment is handled entirely by Google Play. The app only learns, from Google Play on your
       device, whether your Google account owns Wavy Pro; it does not receive your payment details or your name, and it
       keeps a small &ldquo;Pro is active&rdquo; marker on your device. You can manage or cancel a subscription in
-      Google Play.</li>
+      Google Play. Wavy Pro also removes ads (see section 3).</li>
   <li><b>Backups you create (optional)</b> — Settings, Backup can save your listening statistics, favorites, playlists
       and settings into a file. You choose where the file is saved (for example Documents). The app does not upload
       it; keep it somewhere safe because it contains your listening history. Importing a backup replaces the data in
@@ -57,7 +58,7 @@ no file names or paths, no account, advertising or device identifiers. The app n
 background. You can withdraw your permission at any time in the lyrics menu (&ldquo;Online lyrics search&rdquo;).
 The lyrics that come back are written by LRCLIB's contributors and may belong to their rights holders; they are
 shown inside the app with their source, are kept only on your device, are not uploaded, shared or exported by the
-app, and can be reported or removed (see section 5). Wavy does not host or distribute lyrics and is not affiliated
+app, and can be reported or removed (see section 6). Wavy does not host or distribute lyrics and is not affiliated
 with LRCLIB. LRCLIB handles data under its own terms; please see lrclib.net.</p>
 
 <p><b>c) Artist pictures (optional).</b> Only if you allow it (the Artists tab asks once; you can change it any time in
@@ -66,25 +67,59 @@ Settings, Library Management), the app sends the <b>artist names</b> from your l
 Deezer's server also receives your IP address. Nothing else is sent. If you decline, nothing is sent and the Artists
 tab shows a generic icon. Pictures are provided by Deezer and belong to their rights holders; the app only displays them.</p>
 
-<h2>3. Permissions</h2>
+<h2>3. Advertising (free version only)</h2>
+<p>The free version of Wavy shows a small amount of advertising served by <b>Google AdMob</b> (the Google Mobile Ads
+SDK): one native ad at the bottom of Settings, and an occasional full-screen ad when you leave the Now Playing menu or
+the Theme screen. Full-screen ads are limited per session and per day and are never shown while music is playing, at app
+launch or when you close the app. <b>If you own Wavy Pro, the app does not show or request ads and does not show the ad
+consent message.</b></p>
+
+<p><b>What the ad SDK collects.</b> To deliver, measure and secure ads, the Google Mobile Ads SDK on your device
+automatically collects and sends to Google your <b>IP address</b> (which can indicate your approximate location), your
+device&rsquo;s <b>Android advertising ID</b> and <b>app set ID</b>, <b>interaction data</b> (such as app launches, taps and
+video views) and <b>diagnostic information</b> (such as app launch time, hang rate and energy usage). This data is sent
+over encrypted connections. Google uses it for advertising, analytics and fraud prevention under its own terms; see
+<a href="https://policies.google.com/privacy">Google&rsquo;s Privacy Policy</a> and
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use
+its services</a>. Wavy does not add your music library, listening history, file names or any other personal data to ad
+requests, and we only receive aggregated ad reports from AdMob, not data about you individually.</p>
+
+<p><b>Your choices</b></p>
+<ul>
+  <li><b>Consent</b> &mdash; in the European Economic Area, the United Kingdom and Switzerland (and wherever else it is
+      required) the app shows a consent message from Google&rsquo;s User Messaging Platform and requests ads only after
+      that process allows it. You can review or change your choice at any time in Settings, <i>Ad privacy settings</i>
+      (shown only where it is required).</li>
+  <li><b>Advertising ID</b> &mdash; you can reset or delete your advertising ID and opt out of ads personalization in your
+      device&rsquo;s Android settings (the exact place depends on your device and Android version).</li>
+  <li><b>No ads at all</b> &mdash; buy Wavy Pro (see section 1).</li>
+</ul>
+
+<h2>4. Permissions</h2>
 <ul>
   <li><b>Audio / storage read access</b> — to find and play your music.</li>
   <li><b>Notifications and foreground service (media playback)</b> — to show playback controls and keep music playing
       with the screen off. <b>Wake lock</b> — to keep playback running while the screen is off.</li>
-  <li><b>Internet</b> — only for the cases in section 2.</li>
+  <li><b>Internet</b> — only for the cases in sections 2 and 3.</li>
+  <li><b>Advertising ID</b> (<code>com.google.android.gms.permission.AD_ID</code>) &mdash; lets the ad SDK in the free
+      version read your device&rsquo;s advertising ID (see section 3). You can reset or delete it in Android settings.</li>
   <li><b>Modify system settings</b> — only if you choose &ldquo;Use as sound&rdquo; to set a song as a ringtone,
       notification or alarm sound.</li>
   <li><b>Folder access you grant</b> — if you pick a folder for <code>.lrc</code> lyrics files, the app reads lyrics
       files from that folder only. You can remove the folder at any time.</li>
 </ul>
 
-<h2>4. Data sharing, retention and children</h2>
-<p>We do not sell or share personal data, and we do not operate a server that receives your data. Data described in
-section 1 remains on your device until you delete it or uninstall the app. The app is not directed to children
-under 13 and does not knowingly collect personal information from anyone.</p>
+<h2>5. Data sharing, retention and children</h2>
+<p>We do not sell your personal data, and we do not operate a server that receives your data. The only third parties
+that receive data from the app are the services described in sections 2 and 3: GitHub (update check), LRCLIB and
+Deezer (only if you allow them) and, in the free version, Google AdMob (advertising). Data described in section 1
+remains on your device until you delete it or uninstall the app; data collected by the ad SDK is held by Google under
+its own policy. The app is not directed to children under 13 and does not knowingly collect personal information from
+children; ad requests are not set up for child-directed treatment.</p>
 
-<h2>5. Your choices, reports and contact</h2>
-<p>You can use the app fully without the network features.</p>
+<h2>6. Your choices, reports and contact</h2>
+<p>You can use the app fully without the optional network features. Ads can be removed with Wavy Pro, and where it
+applies you can change your ad consent in Settings, Ad privacy settings (see section 3).</p>
 
 <p><b>Reporting lyrics.</b> If lyrics are wrong or you believe they infringe someone's rights, use
 &ldquo;Report lyrics&rdquo; in the lyrics menu (available for lyrics from an online search). This
@@ -99,7 +134,7 @@ review it promptly and, where appropriate, stop offering the online lyrics searc
 <p>For any privacy question or request, contact:
 <a href="mailto:bd.protech.corp@gmail.com"><b>bd.protech.corp@gmail.com</b></a></p>
 
-<h2>6. Changes</h2>
+<h2>7. Changes</h2>
 <p>If the app's data practices change (for example, new network features), this policy will be updated before the
 change is released, and the date above will change.</p>
 
