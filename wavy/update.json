@@ -1,13 +1,314 @@
 {
-  "versionCode": 7,
-  "versionName": "1.3",
-  "releaseDate": "2026-11-01",
-  "minVersionCode": 7,
-  "enforceAfter": "2026-10-09",
-  "lyricsOnline": true,
+  "versionCode": 11,
+  "versionName": "1.0",
+  "releaseDate": "2026-11-27",
+  "minVersionCode": 11,
+  "enforceAfter": "2026-11-28",
   "changelog": [
     {
-      "version": "1.1",
+      "version": "1.0",
+      "date": "2026-11-22",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Settings > Language: choose English or Azərbaycan. Every screen, including Wavy Pro, the player, search and lyrics, follows your choice.",
+            "New Now Playing menu: the button next to the heart (also Settings > Now Playing) opens one place for the neon border, the seek bar, the cover art style, tap to close and the theme, with a live preview.",
+            "New Neon border: a soft ring with a light running around the cover while music plays. It is on by default. You can turn it off, choose Song color or Rainbow, and pick the moving light style (Simple, Wavy, Zigzag, Dashed, Dotted or Bars). The light stops when you pause.",
+            "New seek bar styles in the Now Playing menu: Slider (the current look, still the default), Simple, Wavy, Zigzag, Dashed, Dotted, Bars and Waveform. You can touch and drag the seek bar in the preview to try it."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "In the Now Playing menu the live preview now sits right above the moving light style, so you see a change where you pick it.",
+            "The listening stats card has a clearer layout: one big total time and two equal tiles, so longer texts no longer overlap."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "The neon ring now moves together with the cover while you swipe, and the Wide cover art keeps its rounded corners the whole time. Both cover styles are a little smaller so the ring has room."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-11-08",
+      "sections": [
+        {
+          "heading": "Changed",
+          "items": [
+            "The Songs tab now shows how many songs you have, like the Liked tab."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Turning Shuffle on again now mixes your queue into a new random order, and Next Up updates right away.",
+            "Screen reader labels on the player buttons (Play, Pause, Next, Previous, Like, Lyrics, Close) are now in English, like the rest of the app."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-11-06",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New setting Tap to close (Settings > Appearance > Now Playing): choose whether tapping the empty space or the cover art closes Now Playing.",
+            "Tap the artist name on Now Playing to close the player and open that artist's page."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Dragging Now Playing down now moves the whole page as it is, without squeezing the space above the cover art."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-11-05",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "The buttons on the first-run screens (Skip, Next, Get Started, Continue) are no longer hidden behind the navigation bar on phones with 3-button navigation."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-11-03",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Wavy Pro: choose Monthly, Yearly or Lifetime to unlock the Sleep timer, Equalizer, Art based theme and Custom color schemes. Prices are shown in your own currency, and you can restore or manage your purchase at any time."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Pro features now carry a small PRO badge, so you can see what is included before you tap. Equalizer and Custom Scheme are part of Wavy Pro; without Pro the app keeps the default look and sound."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-11-02",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Settings > Backup: save your listening stats, favorites, playlists and settings into one file (for example in Documents) and restore them later, even after reinstalling. The app restarts after a restore.",
+            "The About page has a new look and shows the real version, with links to the privacy policy, the terms of use and a way to contact the developer."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Online lyrics now explain where the words come from and that they may be protected by copyright. The online search can also be switched off remotely if that is ever needed."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-11-01",
+      "sections": [
+        {
+          "heading": "Changed",
+          "items": [
+            "Wind Player is now Wavy: new name, same player."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-30",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New sleep timer: tap the moon button between Shuffle and Lyrics, pick 5 to 60 minutes, stop at the end of the current song, or set your own time with the clock dial. The music fades out and stops by itself."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed the Equalizer making the whole song quieter when you raised the first bands. Boosting now makes the sound stronger instead.",
+            "Fixed the Virtualizer cutting the sound. It now widens the stereo image on every phone, and 0 percent leaves the sound untouched.",
+            "Loudness is stronger and cleaner: at 100 percent it gives a clear boost without the crackling."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-28",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New 10 band Equalizer with presets, a response curve and Bass Boost, Virtualizer and Loudness dials. While it is off, the bands and presets are hidden.",
+            "You can reorder or hide Equalizer presets with the Reorder button at the end of the preset row.",
+            "You can open the Equalizer straight from the Now Playing screen.",
+            "Wavy now pauses or lowers its volume when a call comes in or another app plays sound, and resumes afterwards. You can turn this off in Settings, Playback."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-27",
+      "sections": [
+        {
+          "heading": "Fixed",
+          "items": [
+            "The media card in the quick settings panel now stays after you swipe the app away. Tap play on it to continue from where you stopped.",
+            "The locate button in Songs now glides to the playing song without lag, even when it is far away.",
+            "Art Based colours now appear as soon as you open the app, with no blue flash and no late colour switch."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-24",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Swipe the mini player left or right to dismiss it. A short notice with Undo appears for 3 seconds, and the music pauses while the player is dismissed."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "In Settings the mini player now moves down to the bottom edge, and every screen leaves room so nothing hides behind it."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed Settings pages whose last options were cut off at the bottom. Every Settings page now scrolls so the last option can be reached above the mini player."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-23",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Navbar style option: keep the classic bar, or choose a floating oval bar, or a floating bar with Search as a separate round button on the left.",
+            "New Compact navbar option shows only icons, without the labels under them.",
+            "New Show scroll bar option: turn it off to hide the scroll bars in Library, Next up and other long lists."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Fixed two cards touching each other on the Theme page."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-21",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Custom Scheme option in Settings, Theme: pick one of nine ready-made color schemes, from the classic Wavy Default to Sunset Ember, Ocean Blue, Aurora Green and more."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Lists, tabs, badges and other surfaces now show the song's color more clearly instead of looking washed out.",
+            "While artist photos are still loading, artists show a song cover as before instead of the same icon, then switch to the real photo."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Buttons, tabs and badges now keep readable text in every color theme: white on deep colors in light mode, dark on soft colors in dark mode."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-20",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "New Theme page in Settings: choose System, Light or Dark.",
+            "Art Based colors: the whole app takes its colors from the cover of the song that is playing and changes smoothly when the song changes. Default keeps the classic blue."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "Icons in front of the Settings sections now have fixed soft colors that do not change with the theme."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-19",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Album and artist pages now open with a big picture across the top, with the title and the Shuffle and Play buttons on it. A small bar with the title stays at the top while you scroll.",
+            "Pull down on the Library to rescan your music. A small bar at the top shows the progress.",
+            "New songs show up by themselves, for example after downloading with another app and coming back, with no need to close and reopen Wavy."
+          ]
+        },
+        {
+          "heading": "Changed",
+          "items": [
+            "The sort menu now shows which sort is selected."
+          ]
+        },
+        {
+          "heading": "Fixed",
+          "items": [
+            "Albums, Artists and Playlists now remember their own list or grid view."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-10-16",
+      "sections": [
+        {
+          "heading": "New",
+          "items": [
+            "Artists now show real artist photos instead of a song cover. The Artists tab asks once whether you want this (artist names are looked up online and the pictures are saved on your device). You can change it in Settings, Library Management, Artist Pictures."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0",
       "date": "2026-10-15",
       "sections": [
         {
@@ -19,7 +320,7 @@
       ]
     },
     {
-      "version": "1.1",
+      "version": "1.0",
       "date": "2026-10-14",
       "sections": [
         {
@@ -36,7 +337,7 @@
       ]
     },
     {
-      "version": "1.1",
+      "version": "1.0",
       "date": "2026-10-09",
       "sections": [
         {
@@ -54,7 +355,7 @@
       ]
     },
     {
-      "version": "1.1",
+      "version": "1.0",
       "date": "2026-10-08",
       "sections": [
         {
@@ -78,7 +379,7 @@
       ]
     },
     {
-      "version": "1.1",
+      "version": "1.0",
       "date": "2026-10-07",
       "sections": [
         {
@@ -98,7 +399,7 @@
       ]
     },
     {
-      "version": "1.1",
+      "version": "1.0",
       "date": "2026-10-05",
       "sections": [
         {
@@ -112,7 +413,7 @@
       ]
     },
     {
-      "version": "1.1",
+      "version": "1.0",
       "date": "2026-10-02",
       "sections": [
         {
@@ -137,7 +438,7 @@
       ]
     },
     {
-      "version": "1.1",
+      "version": "1.0",
       "date": "2026-10-01",
       "sections": [
         {
