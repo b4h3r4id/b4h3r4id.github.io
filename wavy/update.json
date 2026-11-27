@@ -3,7 +3,8 @@
   "versionName": "1.0",
   "releaseDate": "2026-11-27",
   "minVersionCode": 11,
-  "enforceAfter": "2026-11-28",
+  "enforceAfter": "2026-11-27",
+  "lyricsOnline": true,
   "changelog": [
     {
       "version": "1.0",
